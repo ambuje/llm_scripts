@@ -4,7 +4,7 @@ import os
 
 
 
-train_dataset=load_dataset('jsonl',data_files="s3://sagemaker-us-west-2-979105248912/ambuje/zero_shot_entities/mix_data/train.jsonl"))
+train_dataset=load_dataset('jsonl',data_files="s3://sagemaker-us-west-2-979105248912/ambuje/zero_shot_entities/mix_data/train.jsonl")
 #eval_dataset = load_dataset('csv', data_files= os.path.join(os.environ["SM_CHANNEL_TEST"],"cricket_data_E2E_clubbed_test_data_1.csv"))
 
 import torch
